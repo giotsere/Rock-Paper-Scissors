@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(25, 48, 97);
+    color: white;
+}
+
+#header{
+    margin-top: 2rem;
+    text-align: center;
+    height: 200px;
+}
+#score{
+    width: 100%;
+}
+
+#outcome{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+#track{
+    display: flex;
+    font-size: 2rem;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#player-outcome p,
+#computer-outcome p{
+    display: inline;
+}
+
+#player-outcome i,
+#computer-outcome i{
+    font-size: 4rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    display: block;
+}
+
+#buttons{
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+
+#buttons i{
+    color: black;
+    margin: 4rem;
+    padding: 2rem;
+    background-color: rgb(36, 168, 113);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
